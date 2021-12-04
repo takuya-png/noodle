@@ -1,5 +1,6 @@
 require "pry"
 require_relative "item"
+require_relative "shop"
 
 SHOP_NAME = "ラーメン屋　りゅーたろう"
 MONEY = 3000

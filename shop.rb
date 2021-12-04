@@ -14,4 +14,11 @@ class Shop
     end
     puts "*" * 40
   end
+
+  def sell(user, item)
+    puts "#{item.name}ですね。#{item.price}円 になります"
+    puts "#{user.money}円 頂戴します"
+    puts "お釣りは #{user.money - item.price}円 です"
+    puts "ゆっくり#{item.name}をお楽しみください"
+  end
 end

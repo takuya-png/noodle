@@ -2,6 +2,7 @@ require "pry"
 require_relative "item"
 require_relative "shop"
 require_relative "user"
+require_relative "string"
 
 SHOP_NAME = "ラーメン屋　りゅーたろう"
 MONEY = 3000

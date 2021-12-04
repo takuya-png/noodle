@@ -7,3 +7,6 @@ items = Item.impotr(path: "items.csv")
 shop = Shop.new(name: SHOP_NAME, items: items)
 user = User.new(money: MONEY)
 
+shop.display
+user.choice
+shop.sell

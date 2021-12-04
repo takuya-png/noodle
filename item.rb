@@ -8,7 +8,6 @@ class Item
     @price = price
   end
 
-
   def self.import(path:)
     CSV.read(path, headers: true).map do |row|
       Item.new(

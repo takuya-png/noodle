@@ -1,4 +1,5 @@
 class Shop
+  attr_reader :items
   def initialize(name:, items:)
     @name = name
     @items = items

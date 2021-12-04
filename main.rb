@@ -8,7 +8,7 @@ MONEY = 3000
 
 items = Item.import(path: "items.csv")
 shop = Shop.new(name: SHOP_NAME, items: items)
-pp user = User.new(money: MONEY)
+user = User.new(money: MONEY)
 
 shop.display
 user.choice
